@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+/*  general setup  */
+
+*, *::before, *::after {
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0; 
+}
+
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*body {
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden; 
+}*/
+
+.max-width {
+	max-width: 1300px; 
+	padding: 0 80px; 
+	margin: auto; 
+}
+
+
+/*  navbar  */
+
+.navbar.sticky {
+	padding: 30px 0; 
+	
+}
+
+.navbar {
+	position: fixed; 
+	width: 100%; 
+	padding: 30px 0; 
+	/*background-color: crimson; */
+	font-family: 'Ubuntu', sans-serif; 
+}
+
+.navbar * {
+	color: #fff; 
+}
+
+.navbar .max-width {
+	display: flex; 
+	align-items: center; 
+	justify-content: space-around; 
+}
+
+.navbar .logo a {
+	font-size: 35px; 
+	font-weight: 600; 
+	text-shadow: 3px 3px #FFC100;
+}
+
+.navbar .logo a span {
+	color: crimson; 
+}
+
+.navbar .menu li {
+	display: inline-block;
+}
+
+.navbar .menu li a {
+	font-size: 18px; 
+	font-weight: 500; 
+	margin-left: 25px; 
+	transition: color 0.3s ease; 
+}
+
+.navbar .menu li a:hover {
+	color: crimson; 
+}
+
+
+/*  home section  */
+
+.home {
+	display: flex; 
+	background: url("images/hz-ting.jpg") center no-repeat; 
+	background-size: cover; 
+	color: #fff; 
+	height: 100vh; 
+	min-height: 500px; 
+	font-family: 'Ubuntu', sans-serif; 
+}
+
+.home .max-width {
+	margin: auto 0 30vh 40px; 
+	/*background-color: red; */
+}
+
+.home .home-content * {
+	font-size: 32px; 
+}
+
+.home .home-content .text-3 {
+	margin: 10px 0; 
+}
+
+.home .home-content #yang {
+	font-size: 80px; 
+	font-weight: 600; 
+	margin-left: -3px; 
+}
+
+.home .home-content #title {
+	color: crimson; 
+	font-weight: 500; 
+	letter-spacing: 2px; 
+	text-shadow: 2px 1px 1px #FFC100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
